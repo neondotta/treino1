@@ -1,0 +1,11 @@
+<?php
+
+$host 	= "localhost";
+$user 	= "root";
+$pass 	= "";
+$dbname = "dbDevmedia";
+$conn 	= mysql_connect($host, $user, $pass);
+$db 	= mysql_select_db($dbname, $conn);
+
+
+?>
